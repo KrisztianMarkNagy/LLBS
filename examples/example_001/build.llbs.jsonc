@@ -1,0 +1,21 @@
+{
+    "compiler": "clang",
+    "linker": "clang",
+    "project_name": "main",
+    "object_files_dir": "./examples/example_001/build/objects",
+    "executable_dir": "./examples/example_001/build/binaries",
+    "source_dir": "./examples/example_001/src/",
+    "local_mods_dir": "./examples/example_001/modules/",
+    "extern_mods_dirs": null,
+    "local_headers_dir": "./examples/example_001/includes/",
+    "extern_headers_dirs": null,
+    "local_libs_dirs": null,
+    "extern_libs_dirs": null, // This is a test
+    // "excluded_dirs": ["examples/example_001/modules/module_implementation_goes_here/mod001/module001.c", "examples/example_001/modules/module_implementation_goes_here/mod002/module002.c"],
+    "excluded_dirs": null,
+    "liblinks": null,
+    "warnings": null,
+    "flags": null,
+    "other": null
+}
+// TODO: See if you should add extra fields for libs/mods for the purpose of custom compiling the specified lib/mod or something similar.
